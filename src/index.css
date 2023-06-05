@@ -1,13 +1,180 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-page {
+    height: 20vh;
+}
+
+.main-page nav {
+    padding: 40px 30px;
+}
+
+.main-page nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.main-page nav ul .left {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-page nav ul .left .logo {
+    margin-right: 70px;
+}
+
+.main-page nav ul .left .button {
+    margin-inline: 25px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.main-page nav ul .right {
+    display: flex;
+}
+
+.main-page nav ul .right .btn {
+    margin-inline: 30px;
+    font-weight: 300;
+}
+
+.butns {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s
+}
+
+.butns:hover {
+    color: grey;
+}
+
+.wrapper {
+    width: 83%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.right-pic {
+    width: 85%;
+    height: 95%;
+
+}
+
+.right-pic img {
+    width: 85%;
+    height: 100%;
+    margin-inline: 100px;
+}
+
+.footer {
+    list-style: none;
+    display: flex;
+
+}
+
+.content {
+    margin-top: 25px;
+    width: 100vh;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+p {
+    margin-top: 25px;
+    font-size: 16px;
+    height: 80px;
+    max-width: 61vh;
+    color: gray;
+}
+
+
+
+.learn {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.learn:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.footer {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-blog {
+    background-color: white;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    text-align: left;
+    width: 150px;
+    padding: 10px 5px;
+    padding-left: 20px;
+    position: absolute;
+    top: 75px;
+    left: 163px;
+    ;
+}
+
+
+.feature-blog p {
+    color: black;
+    margin: 10px 0;
+}
+
+.feature-blog img {
+    margin-right: 5px;
+}
+
+.company-blog {
+    background-color: white;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    text-align: left;
+    width: 100px;
+    padding: 10px 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 75px;
+    left: 338px;
+}
+
+
+.company-blog p {
+    color: black;
+    margin: 10px 0;
 }
