@@ -3,6 +3,7 @@ import '../index.css'
 
 const Company = ({ open2 }) => {
     if (!open2) return null
+
     return (
         <div className='company-blog display-none'>
             <p>History</p>
